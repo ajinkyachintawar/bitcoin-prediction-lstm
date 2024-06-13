@@ -13,3 +13,5 @@ event_time,symbol,kline_start_time,kline_close_time,interval,first_trade_id,last
 # Enhanced prediction accuracy on 25 May 2024, 12:57
 
 # Cleaned up unused code on 10 Jun 2024, 17:10
+
+# Updated documentation on 13 Jun 2024, 15:59
