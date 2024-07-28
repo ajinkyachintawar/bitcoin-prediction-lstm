@@ -15,3 +15,5 @@ event_time,symbol,kline_start_time,kline_close_time,interval,first_trade_id,last
 # Cleaned up unused code on 10 Jun 2024, 17:10
 
 # Updated documentation on 13 Jun 2024, 15:59
+
+# Added insights to notebook on 28 Jul 2024, 17:06
