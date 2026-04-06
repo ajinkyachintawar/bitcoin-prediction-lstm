@@ -123,15 +123,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🔍 Key Functions
 
-- `fetch_data()`: Retrieves data from PostgreSQL [1](#0-0) 
-- `create_window_data()`: Creates time series windows for LSTM [2](#0-1) 
-- `make_predictions()`: Generates real-time predictions [3](#0-2) 
-- `insert_predictions()`: Stores predictions in database [4](#0-3) 
+- `fetch_data()`: Retrieves data from PostgreSQL
+- `create_window_data()`: Creates time series windows for LSTM
+- `make_predictions()`: Generates real-time predictions
+- `insert_predictions()`: Stores predictions in database
 
 ## Notes
 
-- The system uses a window size of 10 time steps for LSTM input [5](#0-4) 
-- Predictions are made every 60 seconds in the live inference loop [6](#0-5) 
-- The model uses two LSTM layers with 50 units each [7](#0-6) 
-- Database connection uses default credentials (dbname='Bitcoin', user='postgres', password='root') [8](#0-7) 
+- The system uses a window size of 10 time steps for LSTM input
+- Predictions are made every 60 seconds in the live inference loop
+- The model uses two LSTM layers with 50 units each 
+- Database connection uses default credentials (dbname='Bitcoin', user='postgres', password='root')
 
